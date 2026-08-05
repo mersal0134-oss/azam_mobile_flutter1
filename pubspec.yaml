@@ -1,0 +1,27 @@
+name: azam_mobile_flutter
+description: Mobile app for Azam system (Android) using Flutter. Arabic RTL, online/offline-friendly with simple sync.
+version: 0.1.0+1
+publish_to: 'none'
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  dio: ^5.4.0
+  shared_preferences: ^2.2.2
+  intl: ^0.19.0
+  # Optional (enable later when adding local DB)
+  sqflite: ^2.3.3+1
+  path_provider: ^2.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
